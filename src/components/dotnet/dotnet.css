@@ -1,0 +1,140 @@
+
+/* Title */
+.azure-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.azure-cloud * {
+    padding: 3px;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        padding-left: 0px !important;
+    }
+}
+
+/* Container */
+.azure-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+}
+
+/* 3D Card */
+.azure-card {
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+    transform-style: preserve-3d;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.azure-card:hover {
+    transform: rotateY(0deg) rotateX(0deg) translateZ(20px);
+    box-shadow:5px 10px 10px 10px rgba(212, 209, 209, 0.8);
+}
+
+/* Phase Title */
+.azure-phase {
+    font-size-1: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #00d4ff;
+}
+
+/* Duration */
+.azure-duration {
+    font-size-1: 14px;
+    margin-bottom: 15px;
+    color: #ccc;
+}
+
+/* Topic */
+.azure-topic {
+    margin-top: 10px;
+}
+
+.azure-topic-title {
+    font-weight: bold;
+    color: #ffd166;
+    margin-bottom: 5px;
+}
+
+.azure-subtopic {
+    font-size-1: 13px;
+    margin-left: 10px;
+    color: #eee;
+}
+
+/* Scroll */
+.azure-details {
+    overflow-y: auto;
+}
+
+.azure-phase {
+    font-size-1: 18px;
+    font-weight: bold;
+    color: #00e6ff;
+    margin-bottom: 10px;
+}
+
+/* Scrollbar */
+.azure-details::-webkit-scrollbar {
+    width: 5px;
+}
+
+.azure-details::-webkit-scrollbar-thumb {
+    background: #00d4ff;
+}
+
+.azure-project,
+.azure-questions {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.azure-hands {
+    margin-left: 20px;
+    color: #9df3c4;
+    font-size-1: 12px;
+}
+
+.azure-hidden {
+    display: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: #00e6ff;
+    color: #000;
+    cursor: pointer;
+}
+
+.azure-question {
+    font-size-1: 13px;
+    margin: 8px 0;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+    transition: 0.2s;
+}
+
+.azure-question:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
