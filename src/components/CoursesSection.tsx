@@ -3,6 +3,23 @@ import { Code2, Zap, Users, Clock, CheckCircle2, ArrowRight } from 'lucide-react
 import { Button } from '@/components/ui/button';
 
 const courses = [
+    {
+    title: '.NET Interview Preparation',
+    description: 'Master modern .NET backend development with real-time projects, enterprise concepts, and product-based interview preparation.',
+    icon: Code2,
+    duration: '8 Weeks',
+    level: 'Intermediate to Advanced',
+    features: [
+      'C#, OOPs, LINQ, Async/Await, Collections',
+      'ASP.NET Core, Web API, Middleware, Minimal APIs',
+      'Entity Framework Core, SQL, Performance Optimization',
+      'Authentication, Authorization, JWT, Identity',
+      'Microservices, Design Patterns, System Design',
+      'Azure Deployment, Docker, CI/CD, GitHub Actions',
+    ],
+    accent: 'primary',
+    popular: true,
+  },
   {
     title: 'Azure Cloud',
     description: 'Master Azure Cloud from scratch with hands-on projects and real-world applications.',
@@ -17,7 +34,7 @@ const courses = [
       'Event Driven Arch. (Event Grid, Azure Bus)',
     ],
     accent: 'primary',
-    popular: true,
+    popular: false,
   },
   {
     title: 'React JS Fundamentals',
